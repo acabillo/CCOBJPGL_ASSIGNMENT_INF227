@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+   <children>
+      <Label layoutX="181.0" layoutY="115.0" prefHeight="31.0" prefWidth="264.0" text="Finding Bebelabs" textFill="RED">
+         <font>
+            <Font name="Monospaced Regular" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="171.0" layoutY="181.0" text="username:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="172.0" layoutY="209.0" text="password:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="mybutton" layoutX="287.0" layoutY="274.0" mnemonicParsing="false" onAction="#login" text="LOGIN" />
+      <PasswordField fx:id="mypasswordfield" layoutX="251.0" layoutY="207.0" prefHeight="25.0" prefWidth="181.0" />
+      <TextField fx:id="mytextfield" layoutX="251.0" layoutY="179.0" prefHeight="25.0" prefWidth="181.0" />
+   </children>
+</AnchorPane>
